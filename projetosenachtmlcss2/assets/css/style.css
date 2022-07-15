@@ -1,0 +1,53 @@
+body{
+    font-family: Helvetica;
+    text-align: center;/*Centralizar o conteúdo na página*/
+    color: #fff;
+    background-color: #333;
+    padding: 0;/*Tira o espaçamento entre os elementos*/
+    margin: 0;/*Tira a margem dos elementos*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #666;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul li{
+    margin-right: 12px;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Formanto o conteúdo principal da página*/
+
+h1{
+    font-size: 32px;
+}
+
+/*Inserindo borda na imagem*/
+
+img{
+    border: 3px solid rgb(49, 241, 248);
+}
+
+/*Formatando o rodapé(footer)*/
+footer{
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 40px;
+}
